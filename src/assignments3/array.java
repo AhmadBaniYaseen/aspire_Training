@@ -51,7 +51,7 @@ public class array {
 
     public static void main(String[] args) {
 
-        int[] array = {5, 3, 8, 1, 9, 2};
+        int[] array = {6, 3, 15, 10, 9, 2};
         int []arr=sortArray(array);
         System.out.println("The minimum value in the array is: " + findMin(array));
         System.out.println("The minimum value in the array is: " + findMax(array));
