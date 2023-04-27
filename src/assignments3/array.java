@@ -29,8 +29,8 @@ public class array {
         for (int n : array) {
             sum+=n;
         }
-        double avg = (double) sum / array.length;
-        return avg;
+        double average = (double) sum / array.length;
+        return average;
     }
     public static  int[] sortArray(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
