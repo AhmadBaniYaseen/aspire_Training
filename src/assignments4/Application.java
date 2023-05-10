@@ -20,7 +20,7 @@ public class Application {
         List<Integer> studentsAge = Stream.of(students).map(s -> s.getAge()).collect(Collectors.toList());
         System.out.println("studentsAge = " + studentsAge);
 
-        System.out.println("-------------------------------------");
+        System.out.println("------------------------------------------");
         Map<Boolean,List<Student>> ageCategories=Stream.of(students)
                 .collect(Collectors.groupingBy(s->s.getAge()>=20));
         System.out.println("studentByGender = " + ageCategories);
